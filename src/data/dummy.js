@@ -3,10 +3,11 @@ import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutline
 import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
 import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft, } from 'react-icons/bs';
 // import {BiSolidCoffeeTogo} from 'react-icons/bi'
-import { BiColorFill } from 'react-icons/bi';
+import {FaMugHot} from 'react-icons/fa';
+import { BiColorFill,BiBadge } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
 import { RiContactsLine, RiStockLine } from 'react-icons/ri';
-import { MdOutlineSupervisorAccount } from 'react-icons/md';
+import { MdOutlineSupervisorAccount,MdCoffee } from 'react-icons/md';
 import { HiOutlineRefresh } from 'react-icons/hi';
 import { TiTick } from 'react-icons/ti';
 import { GiLouvrePyramid } from 'react-icons/gi';
@@ -615,7 +616,7 @@ export const earningData = [
 
 export const recentTransactions = [
   {
-    // icon: </>,
+    icon: <FaMugHot/>,
     title: 'Hot Coffee',
     desc: '#1 Best Seller',
     iconColor: '#03C9D7',
@@ -623,7 +624,7 @@ export const recentTransactions = [
     pcColor: 'green-600',
   },
   {
-    // icon: hotcoffee,
+    icon: <BiBadge/>,
     title: 'Baked vada pav',
     desc: '#2 Best Seller',
     iconColor: '#03C9D7',
@@ -631,7 +632,7 @@ export const recentTransactions = [
     pcColor: 'green-600',
   },
   {
-    // icon: hotcoffee,
+    icon: <MdCoffee/>,
     title: 'Cold Coffee',
     desc: '#3 Best Seller',
     iconColor: '#03C9D7',
@@ -43761,32 +43762,32 @@ export const scheduleData = [
 
 export const lineChartData = [
   [
-    { x: new Date(2005, 0, 1), y: 21 },
-    { x: new Date(2006, 0, 1), y: 24 },
-    { x: new Date(2007, 0, 1), y: 36 },
-    { x: new Date(2008, 0, 1), y: 38 },
-    { x: new Date(2009, 0, 1), y: 54 },
-    { x: new Date(2010, 0, 1), y: 57 },
-    { x: new Date(2011, 0, 1), y: 70 },
+    { x: new Date(2024, 0, 1), y: 24 },
+    { x: new Date(2024, 0, 2), y: 36 },
+    { x: new Date(2024, 0, 3), y: 38 },
+    { x: new Date(2024, 0, 4), y: 54 },
+    { x: new Date(2024, 0, 5), y: 57 },
+    { x: new Date(2024, 0, 6), y: 70 },
+    { x: new Date(2024, 0, 7), y: 70 },
   ],
   [
-    { x: new Date(2005, 0, 1), y: 28 },
-    { x: new Date(2006, 0, 1), y: 44 },
-    { x: new Date(2007, 0, 1), y: 48 },
-    { x: new Date(2008, 0, 1), y: 50 },
-    { x: new Date(2009, 0, 1), y: 66 },
-    { x: new Date(2010, 0, 1), y: 78 },
-    { x: new Date(2011, 0, 1), y: 84 },
+    { x: new Date(2024, 0, 1), y: 24 },
+    { x: new Date(2024, 0, 2), y: 36 },
+    { x: new Date(2024, 0, 3), y: 28 },
+    { x: new Date(2024, 0, 4), y: 52 },
+    { x: new Date(2024, 0, 5), y: 15 },
+    { x: new Date(2024, 0, 6), y: 70 },
+    { x: new Date(2024, 0, 7), y: 70 },
   ],
 
   [
-    { x: new Date(2005, 0, 1), y: 10 },
-    { x: new Date(2006, 0, 1), y: 20 },
-    { x: new Date(2007, 0, 1), y: 30 },
-    { x: new Date(2008, 0, 1), y: 39 },
-    { x: new Date(2009, 0, 1), y: 50 },
-    { x: new Date(2010, 0, 1), y: 70 },
-    { x: new Date(2011, 0, 1), y: 100 },
+    { x: new Date(2024, 0, 1), y: 2 },
+    { x: new Date(2024, 0, 2), y: 46 },
+    { x: new Date(2024, 0, 3), y: 58 },
+    { x: new Date(2024, 0, 4), y: 94 },
+    { x: new Date(2024, 0, 5), y: 27 },
+    { x: new Date(2024, 0, 6), y: 50 },
+    { x: new Date(2024, 0, 7), y: 10 },
   ],
 ];
 export const dropdownData = [
@@ -43815,7 +43816,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Germany',
+    name: 'week1',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
@@ -43823,7 +43824,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'England',
+    name: 'week2',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
@@ -43831,7 +43832,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[2],
     xName: 'x',
     yName: 'y',
-    name: 'India',
+    name: 'week3',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
