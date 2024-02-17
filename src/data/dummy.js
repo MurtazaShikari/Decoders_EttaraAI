@@ -1035,14 +1035,14 @@ export const employeesData = [
     Name: 'Aftab',
     Country: 'IND',
     EmployeeImage:
-    avatar3,
+    avatar,
   },
   {
     EmployeeID: 4,
     Name: 'Naresh Rathod',
     Country: 'IND',
     EmployeeImage:
-    avatar3,
+    avatar2,
   },
   {
     EmployeeID: 5,
@@ -1050,7 +1050,7 @@ export const employeesData = [
     Country: 'IND',
     ReportsTo: 'Carson',
     EmployeeImage:
-      avatar3,
+      avatar4,
   },
   
 ];
