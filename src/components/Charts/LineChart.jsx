@@ -9,11 +9,12 @@ const LineChart = () => {
 
   return (
     <ChartComponent
-      id="line-chart"
-      height="420px"
-      primaryXAxis={LinePrimaryXAxis}
-      primaryYAxis={LinePrimaryYAxis}
-      chartArea={{ border: { width: 0 } }}
+    id="line-chart"
+    height="420px"
+    primaryXAxis={{
+      valueType: 'DateTime',
+      labelFormat: 'ddd', // Format for displaying labels on x-axis
+    }}
       tooltip={{ enable: true }}
       background={currentMode === 'Dark' ? '#33373E' : '#fff'}
       legendSettings={{ background: 'white' }}
