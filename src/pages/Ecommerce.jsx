@@ -155,7 +155,7 @@ const Ecommerce = () => {
           <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl md:w-400 p-8 m-3 flex flex-col justify-center items-center gap-10">
             <div>
               <p className="text-black-400 font-bold ">Area Distribution</p>
-              <p className="text-grey-200 font-bold ">Dine in , Zomato, Swiggy , Other</p>
+              <p className="text-gray-400 font-bold ">Dine in , Zomato, Swiggy , Other</p>
             </div>
 
             <div className="w-40">
