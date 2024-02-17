@@ -43869,10 +43869,10 @@ export const contextMenuItems = [
 ];
 
 export const ecomPieChartData = [
-  { x: 'Dine in', y: 4191, text: '63.5%' },
-  { x: 'Zomato', y: 238, text: '75%' },
-  { x: 'Swiggy', y: 235, text: '75%' },
-  { x: 'Other', y: 1339, text: '75%' },
+  { x: 'Dine in', y: 4191, text: '68.97%' },
+  { x: 'Zomato', y: 238, text: '3.9%' },
+  { x: 'Swiggy', y: 235, text: '3.8%' },
+  { x: 'Other', y: 1339, text: '22.03%' },
 ];
 
 export const stackedChartData = [
