@@ -443,7 +443,7 @@ export const links = [
     title: 'Dashboard',
     links: [
       {
-        name: 'ecommerce',
+        name: 'Analytics',
         icon: <FiShoppingBag />,
       },
     ],
