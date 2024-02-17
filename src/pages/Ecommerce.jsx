@@ -178,8 +178,8 @@ const Ecommerce = () => {
       <div className="flex gap-10 m-4 flex-wrap justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl">
           <div className="flex justify-between items-center gap-2">
-            <p className="text-xl font-semibold">Recent Transactions</p>
-            <DropDown currentMode={currentMode} />
+            <p className="text-xl font-semibold">Best Sellers</p>
+            {/* <DropDown currentMode={currentMode} /> */}
           </div>
           <div className="mt-10 w-72 md:w-400">
             {recentTransactions.map((item) => (
@@ -206,15 +206,15 @@ const Ecommerce = () => {
           </div>
           <div className="flex justify-between items-center mt-5 border-t-1 border-color">
             <div className="mt-3">
-              <Button
+              {/* <Button
                 color="white"
                 bgColor={currentColor}
                 text="Add"
                 borderRadius="10px"
-              />
+              /> */}
             </div>
 
-            <p className="text-gray-400 text-sm">36 Recent Transactions</p>
+            {/* <p className="text-gray-400 text-sm">36 Recent Transactions</p> */}
           </div>
         </div>
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">

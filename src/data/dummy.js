@@ -1,7 +1,8 @@
 import React from 'react';
 import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock } from 'react-icons/ai';
 import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
-import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
+import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft, } from 'react-icons/bs';
+// import {BiSolidCoffeeTogo} from 'react-icons/bi'
 import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
 import { RiContactsLine, RiStockLine } from 'react-icons/ri';
@@ -23,6 +24,7 @@ import product6 from './product6.jpg';
 import product7 from './product7.jpg';
 import product8 from './product8.jpg';
 import MarketBasket from '../pages/MarketBasket';
+import hotcoffee from './hotcoffee.png';
 
 export const gridOrderImage = (props) => (
   <div>
@@ -613,53 +615,31 @@ export const earningData = [
 
 export const recentTransactions = [
   {
-    icon: <BsCurrencyDollar />,
-    amount: '+$350',
-    title: 'Paypal Transfer',
-    desc: 'Money Added',
+    // icon: </>,
+    title: 'Hot Coffee',
+    desc: '#1 Best Seller',
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB',
     pcColor: 'green-600',
   },
   {
-    icon: <BsShield />,
-    amount: '-$560',
-    desc: 'Bill Payment',
-    title: 'Wallet',
-    iconColor: 'rgb(0, 194, 146)',
-    iconBg: 'rgb(235, 250, 242)',
-    pcColor: 'red-600',
-  },
-  {
-    icon: <FiCreditCard />,
-    amount: '+$350',
-    title: 'Credit Card',
-    desc: 'Money reversed',
-    iconColor: 'rgb(255, 244, 229)',
-    iconBg: 'rgb(254, 201, 15)',
-
-    pcColor: 'green-600',
-  },
-  {
-    icon: <TiTick />,
-    amount: '+$350',
-    title: 'Bank Transfer',
-    desc: 'Money Added',
-
-    iconColor: 'rgb(228, 106, 118)',
-    iconBg: 'rgb(255, 244, 229)',
-    pcColor: 'green-600',
-  },
-  {
-    icon: <BsCurrencyDollar />,
-    amount: '-$50',
-    percentage: '+38%',
-    title: 'Refund',
-    desc: 'Payment Sent',
+    // icon: hotcoffee,
+    title: 'Baked vada pav',
+    desc: '#2 Best Seller',
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB',
-    pcColor: 'red-600',
+    pcColor: 'green-600',
   },
+  {
+    // icon: hotcoffee,
+    title: 'Cold Coffee',
+    desc: '#3 Best Seller',
+    iconColor: '#03C9D7',
+    iconBg: '#E5FAFB',
+    pcColor: 'green-600',
+  },
+
+  
 ];
 
 export const weeklyStats = [
@@ -43896,22 +43876,22 @@ export const ecomPieChartData = [
 
 export const stackedChartData = [
   [
-    { x: 'Jan', y: 111.1 },
-    { x: 'Feb', y: 127.3 },
-    { x: 'Mar', y: 143.4 },
-    { x: 'Apr', y: 159.9 },
-    { x: 'May', y: 159.9 },
-    { x: 'Jun', y: 159.9 },
-    { x: 'July', y: 159.9 },
+    { x: 'Jan', y: 0 },
+    { x: 'Feb', y: 0},
+    { x: 'Mar', y: 0},
+    { x: 'Apr', y: 0},
+    { x: 'May', y:  0},
+    { x: 'Jun', y: 0 },
+    { x: 'July', y: 0},
   ],
   [
-    { x: 'Jan', y: 111.1 },
-    { x: 'Feb', y: 127.3 },
-    { x: 'Mar', y: 143.4 },
-    { x: 'Apr', y: 159.9 },
-    { x: 'May', y: 159.9 },
-    { x: 'Jun', y: 159.9 },
-    { x: 'July', y: 159.9 },
+    { x: 'Jan', y: 140.2497 },
+    { x: 'Feb', y: 306.72419 },
+    { x: 'Mar', y: 334.77413 },
+    { x: 'Apr', y: 320.74916},
+    { x: 'May', y: 334.77413 },
+    { x: 'Jun', y: 320.74916 },
+    { x: 'July', y: 334.77413 },
   ],
 ];
 
