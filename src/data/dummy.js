@@ -43875,6 +43875,13 @@ export const ecomPieChartData = [
   { x: 'Other', y: 1339, text: '22.03%' },
 ];
 
+export const ecomPieChartData2 = [
+  { x: 'Card', y: 3858, text: '63.5%' },
+  { x: 'Cash', y: 1646, text: '27%' },
+  { x: 'Online', y: 473, text: '7.78%'},
+  { x: 'Part Payment', y: 98, text: '1.61%' },
+];
+
 export const stackedChartData = [
   [
     { x: 'Jan', y: 0 },

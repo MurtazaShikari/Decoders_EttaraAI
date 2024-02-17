@@ -7,7 +7,7 @@ import img1 from '../data/img1.png';
 import img2 from '../data/img2.png';
 
 import { Stacked, Pie, Button, LineChart, SparkLine } from '../components';
-import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
+import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData,ecomPieChartData2 } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 import product9 from '../data/product9.jpg';
 
@@ -221,14 +221,14 @@ const Ecommerce = () => {
       <div className="flex flex-wrap justify-center">
         <div className="md:w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
-            <p className="text-xl font-semibold">Weekly Stats</p>
+            <p className="text-xl font-semibold">Payment Type</p>
             <button type="button" className="text-xl font-semibold text-gray-500">
               <IoIosMore />
             </button>
           </div>
 
           <div className="mt-10 ">
-            {weeklyStats.map((item) => (
+            {/* {weeklyStats.map((item) => (
               <div key={item.title} className="flex justify-between mt-4 w-full">
                 <div className="flex gap-4">
                   <button
@@ -249,11 +249,20 @@ const Ecommerce = () => {
             ))}
             <div className="mt-4">
               <SparkLine currentColor={currentColor} id="area-sparkLine" height="160px" type="Area" data={SparklineAreaData} width="320" color="rgb(242, 252, 253)" />
+            </div> */}
+            <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl md:w-250 p-8 m-3 flex flex-col justify-center items-center gap-10">
+            <div>
+              {/* <p className="text-black-400 font-bold ">Area Distribution</p> */}
+              <p className="text-gray-400 font-bold ">Card, Cash, Online, Part Payment</p>
             </div>
+            <div className="w-40">
+              <Pie id="pie-chart" data={ecomPieChartData2} legendVisiblity={true} height="160px" />
+            </div>
+          </div>
           </div>
 
         </div>
-        <div className="w-900 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
+        <div className="w-700 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
            <img src={img2}></img>
           </div>
