@@ -43896,13 +43896,18 @@ export const lineCustomSeries = [
 ];
 
 export const pieChartData = [
-  { x: 'Labour', y: 18, text: '18%' },
-  { x: 'Legal', y: 8, text: '8%' },
-  { x: 'Production', y: 15, text: '15%' },
-  { x: 'License', y: 11, text: '11%' },
-  { x: 'Facilities', y: 18, text: '18%' },
-  { x: 'Taxes', y: 14, text: '14%' },
-  { x: 'Insurance', y: 16, text: '16%' },
+  { x: 'BILLER KUNDAN', y: 17503, text: '30.85%' },
+  { x: 'Allahbaksh', y: 12319, text: '21.72%' },
+  { x: 'Biller Aftab', y: 9295, text: '16.39%' },
+  { x: 'NARESH RATHOD', y: 7608, text: '13.41%' },
+  { x: 'Autoaccept', y: 4412, text: '7.78%' },
+  { x: 'BILLER ASIF', y: 2491, text: '4.39%' },
+  { x: 'KHUSHI SANDEEP GUPTA', y: 1243, text: '2.19%' },
+  { x: 'Allahbaksh Shaikh', y: 1164, text: '2.05%' },
+  { x: 'Sabina Khan', y: 602, text: '1.06%' },
+  { x: 'RAM RATHORE', y: 54, text: '0.1%' },
+  { x: 'Lakhi salian', y: 30, text: '0.05%' },
+
 ];
 
 export const contextMenuItems = [
