@@ -27,6 +27,7 @@ import "./App.css";
 import { useStateContext } from "./contexts/ContextProvider";
 import MarketBasket from "./pages/MarketBasket";
 import Competitors from "./pages/Competitors";
+import Offers from "./pages/Offers";
 
 const App = () => {
   const {
@@ -99,6 +100,7 @@ const App = () => {
                 {/* apps  */}
                 <Route path="/marketbasket" element={<MarketBasket />} />
                 <Route path="/competitors" element={<Competitors />} />
+                <Route path="/offers" element={<Offers />} />
                 {/* <Route path="/editor" element={<Editor />} />
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/color-picker" element={<ColorPicker />} /> */}
