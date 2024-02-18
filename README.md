@@ -23,4 +23,4 @@ This project is a web-based dashboard that provides analysis and insights into v
 - Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/restaurant-analysis-dashboard.git
+git clone https://github.com/MurtazaShikari/dashboard.git
