@@ -7,7 +7,7 @@ import img1 from '../data/img1.png';
 import img2 from '../data/img2.png';
 
 import { Stacked, Pie, Button, LineChart, SparkLine } from '../components';
-import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
+import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData, ecomPieChartData2 } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 import product9 from '../data/product9.jpg';
 
@@ -226,7 +226,16 @@ const Ecommerce = () => {
               <IoIosMore />
             </button>
           </div>
-          
+          <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl md:w-400 p-8 m-3 flex flex-col justify-center items-center gap-10">
+              <div>
+                <p className="text-black-400 font-bold ">Area Distribution</p>
+                <p className="text-gray-400 font-bold ">Dine in , Zomato, Swiggy , Other</p>
+              </div>
+
+              <div className="w-40">
+                <Pie id="pie-chart-2" data={ecomPieChartData2} legendVisiblity={false} height="160px" />
+              </div>
+            </div>
         </div>
         <div className="w-900 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
