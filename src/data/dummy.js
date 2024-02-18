@@ -492,6 +492,9 @@ export const links = [
         name: 'marketbasket',
         // icon: <MarketBasket />,
       },
+      {
+        name:'competitors',
+      }
       
     ],
   },
