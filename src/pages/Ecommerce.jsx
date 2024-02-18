@@ -50,24 +50,23 @@ const Ecommerce = () => {
           <div className="flex justify-between items-center">
             <div>
               <p className="font-bold text-gray-400">Earnings</p>
-              <p className="text-2xl">14,02,497.21</p>
+              <p className="text-3xl font-extrabold">₹11,32,518.94</p>
             </div>
-            <button
+            {/* <button
               type="button"
               style={{ backgroundColor: currentColor }}
-              className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full  p-4"  
-            >
+              className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full  p-4">
               <BsCurrencyDollar />
-            </button>
+            </button> */}
           </div>
           <div className="mt-6">
-            <Button
+            {/* <Button
               color="white"
               bgColor={currentColor}
               text="Download"
               borderRadius="10px"
               onClick={handleDownload}
-            />
+            /> */}
           </div>
         </div>
         <div className="flex m-3 flex-wrap justify-center gap-1 items-center">
@@ -97,17 +96,17 @@ const Ecommerce = () => {
           <div className="flex justify-between">
             <p className="font-semibold text-xl">Revenue Updates</p>
             <div className="flex items-center gap-4">
-              <p className="flex items-center gap-2 text-gray-600 hover:drop-shadow-xl">
-                <span>
-                  <GoPrimitiveDot />
-                </span>
-                <span>Expense</span>
-              </p>
               <p className="flex items-center gap-2 text-green-400 hover:drop-shadow-xl">
                 <span>
                   <GoPrimitiveDot />
                 </span>
-                <span>Budget</span>
+                <span>Sales</span>
+              </p>
+              <p className="flex items-center gap-2 text-green-400 hover:drop-shadow-xl">
+                {/* <span>
+                  <GoPrimitiveDot />
+                </span> */}
+                {/* <span>Budget</span> */}
               </p>
             </div>
           </div>
@@ -115,15 +114,15 @@ const Ecommerce = () => {
             <div className=" border-r-1 border-color m-4 pr-10">
               <div>
                 <p>
-                  <span className="text-3xl font-semibold">₹34,93,386.64</span>
-                  <span className="p-1.5 hover:drop-shadow-xl cursor-pointer rounded-full text-white bg-green-400 ml-3 text-xs">
+                  <span className="text-4xl font-semibold">₹34,93,386.64</span>
+                  {/* <span className="p-1.5 hover:drop-shadow-xl cursor-pointer rounded-full text-white bg-green-400 ml-3 text-xs">
                     23%
-                  </span>
+                  </span> */}
                 </p>
                 <p className="text-gray-500 mt-1">Budget</p>
               </div>
               <div className="mt-8">
-                <p className="text-3xl font-semibold">₹48,487</p>
+                <p className="text-3xl font-semibold">₹46,289.77</p>
 
                 <p className="text-gray-500 mt-1">Expense</p>
               </div>14,02,497.21
@@ -131,14 +130,14 @@ const Ecommerce = () => {
               <div className="mt-5">
                 <SparkLine currentColor={currentColor} id="line-sparkLine" type="Line" height="80px" width="250px" data={SparklineAreaData} color={currentColor} />
               </div>
-              <div className="mt-10">
+              {/* <div className="mt-10">
                 <Button
                   color="white"
                   bgColor={currentColor}
                   text="Download Report"
                   borderRadius="10px"
                 />
-              </div>
+              </div> */}
             </div>
             <div>
               <Stacked currentMode={currentMode} width="320px" height="360px" />
@@ -226,13 +225,13 @@ const Ecommerce = () => {
               <IoIosMore />
             </button>
           </div>
-          <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl md:w-400 p-8 m-3 flex flex-col justify-center items-center gap-10">
+          <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl md:w-250 p-8 m-3 flex flex-col justify-center items-center gap-10">
               <div>
                 <p className="text-black-400 font-bold ">Area Distribution</p>
-                <p className="text-gray-400 font-bold ">Dine in , Zomato, Swiggy , Other</p>
+                <p className="text-gray-400 font-bold "></p>
               </div>
 
-              <div className="w-40">
+              <div className="w-60">
                 <Pie id="pie-chart-2" data={ecomPieChartData2} legendVisiblity={false} height="160px" />
               </div>
             </div>
@@ -244,6 +243,7 @@ const Ecommerce = () => {
           </div>
         </div>
         </div>
+        
   );
 };
 
