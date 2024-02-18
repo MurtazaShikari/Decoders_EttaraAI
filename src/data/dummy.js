@@ -505,31 +505,31 @@ export const links = [
         name: 'line',
         icon: <AiOutlineStock />,
       },
-      {
-        name: 'area',
-        icon: <AiOutlineAreaChart />,
-      },
+      // {
+      //   name: 'area',
+      //   icon: <AiOutlineAreaChart />,
+      // },
 
-      {
-        name: 'bar',
-        icon: <AiOutlineBarChart />,
-      },
+      // {
+      //   name: 'bar',
+      //   icon: <AiOutlineBarChart />,
+      // },
       {
         name: 'pie',
         icon: <FiPieChart />,
       },
-      {
-        name: 'financial',
-        icon: <RiStockLine />,
-      },
-      {
-        name: 'color-mapping',
-        icon: <BsBarChart />,
-      },
-      {
-        name: 'pyramid',
-        icon: <GiLouvrePyramid />,
-      },
+      // {
+      //   name: 'financial',
+      //   icon: <RiStockLine />,
+      // },
+      // {
+      //   name: 'color-mapping',
+      //   icon: <BsBarChart />,
+      // },
+      // {
+      //   name: 'pyramid',
+      //   icon: <GiLouvrePyramid />,
+      // },
       {
         name: 'stacked',
         icon: <AiOutlineBarChart />,
@@ -43945,22 +43945,32 @@ export const ecomPieChartData2 = [
 
 export const stackedChartData = [
   [
-    { x: 'Jan', y: 140.2497 },
-    { x: 'Feb', y: 306.72419},
-    { x: 'Mar', y: 334.77413},
-    { x: 'Apr', y: 320.74916},
-    { x: 'May', y:  334.77413},
-    { x: 'Jun', y: 320.74916},
-    { x: 'July', y: 334.77413},
+    { x: 'Jaggery Powder Sachet', y: 1500},
+    { x: 'Bisleri', y: 1440},
+    { x: 'Paper Bag', y: 1100},
+    { x: 'Coffee Cup', y: 1020},
+    { x: 'Bathing Bar', y:  1000},
+
   ],
+  // [
+  //   { x: 'Jan', y: 0 },
+  //   { x: 'Feb', y: 0 },
+  //   { x: 'Mar', y: 0 },
+  //   { x: 'Apr', y: 0 },
+  //   { x: 'May', y: 0 },
+  //   { x: 'Jun', y: 0 },
+  //   { x: 'July', y:0 },
+  // ],
+];
+
+export const stackedChartDataNew = [
   [
-    { x: 'Jan', y: 0 },
-    { x: 'Feb', y: 0 },
-    { x: 'Mar', y: 0 },
-    { x: 'Apr', y: 0 },
-    { x: 'May', y: 0 },
-    { x: 'Jun', y: 0 },
-    { x: 'July', y:0 },
+    { x: 'Indian Chives ', y: 1000},
+    { x: 'Lemon Leaves', y: 1440},
+    { x: 'Parsley Leaves', y: 1100},
+    { x: 'Rosemary Fresh', y: 1020},
+    { x: 'Soya Keema', y:  1000},
+
   ],
 ];
 
@@ -43986,6 +43996,28 @@ export const stackedCustomSeries = [
 
 ];
 
+export const stackedCustomSeriesNew = [
+
+  { dataSource: stackedChartDataNew[0],
+    xName: 'x',
+    yName: 'y',
+    // name: 'Budget',
+    type: 'StackingColumn',
+    background: 'yellow',
+
+  },
+
+  { dataSource: stackedChartDataNew[1],
+    xName: 'x',
+    yName: 'y',
+    // name: 'Expense',
+    type: 'StackingColumn',
+    background: 'yellow',
+
+  },
+
+];
+
 export const stackedPrimaryXAxis = {
   majorGridLines: { width: 0 },
   minorGridLines: { width: 0 },
@@ -44000,7 +44032,7 @@ export const stackedPrimaryXAxis = {
 export const stackedPrimaryYAxis = {
   lineStyle: { width: 0 },
   minimum: 100,
-  maximum: 400,
+  maximum: 1600,
   interval: 100,
   majorTickLines: { width: 0 },
   majorGridLines: { width: 1 },
