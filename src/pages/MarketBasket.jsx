@@ -1,9 +1,35 @@
 import React from 'react';
+import { GridComponent, ColumnsDirective, ColumnDirective, Page, Selection, Inject, Edit, Toolbar, Sort, Filter } from '@syncfusion/ej2-react-grids';
 
-const MarketBasket = () => {
+import { aprioriData, apriori } from '../data/dummy';
+import { Header } from '../components';
+
+const Customers = () => {
+  const selectionsettings = { persistSelection: true };
+  const toolbarOptions = ['Delete'];
+  const editing = { allowDeleting: true, allowEditing: true };
+
   return (
-    <div>MarketBasket</div>
-  )
-}
+    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
+      <Header category="Page" title="Market Basket" />
+      <GridComponent
+        dataSource={aprioriData}
+        enableHover={false}
+        allowPaging
+        pageSettings={{ pageCount: 5 }}
+        selectionSettings={selectionsettings}
+        toolbar={toolbarOptions}
+        editSettings={editing}
+        allowSorting
+      >
+        <ColumnsDirective>
+          {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+          {apriori.map((item, index) => <ColumnDirective key={index} {...item} />)}
+        </ColumnsDirective>
+        <Inject services={[Page, Selection, Toolbar, Edit, Sort, Filter]} />
+      </GridComponent>
+    </div>
+  );
+};
 
-export default MarketBasket;
+export default Customers;

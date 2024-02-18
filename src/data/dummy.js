@@ -395,7 +395,23 @@ export const LinePrimaryYAxis = {
   minorTickLines: { width: 0 },
 };
 
-
+export const apriori = [
+    {
+      headerText:'LHS',
+      field:'LHS',
+      width:'200'
+    },
+    {
+      headerText:'RHS',
+      field:'RHS',
+      width:'200'
+    },
+    {
+      headerText:'Confidence',
+      field:'Confidence',
+      width:'200'
+    }
+  ];
 
 export const customersGrid = [
   // { type: 'checkbox', width: '50' },
@@ -473,7 +489,7 @@ export const links = [
     title: 'Apps',
     links: [
       {
-        name: 'Market Basket',
+        name: 'marketbasket',
         // icon: <MarketBasket />,
       },
       
@@ -542,6 +558,43 @@ export const cartData = [
     price: '$190',
   },
 ];
+
+
+export const aprioriData=[
+  {LHS: ["Add On Syrup (Add On Irish Syrup)"], RHS: "Iced Americano (350 ML)", Confidence: 1.0},
+  {LHS: ["Berliner Mix 3 Pcs (Dark Choco Mousse Berliner)"], RHS: "Berliner Mix 3 Pcs (Lotus Biscoff Berliner)", Confidence: 1.0},
+  {LHS: ["Mix Tartlet 3 Pcs (chocolate Tartlet)"], RHS: "Mix Tartlet 3 Pcs (salted Caramel tartlet)", Confidence: 1.0},
+  {LHS: ["Mix Tartlet 3 Pcs (salted Caramel tartlet)"], RHS: "Mix Tartlet 3 Pcs (chocolate Tartlet)", Confidence: 1.0},
+  {LHS: ["Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)"], RHS: "Mix Tartlet 3 Pcs (chocolate Tartlet)", Confidence: 1.0},
+  {LHS: ["Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)"], RHS: "Mix Tartlet 3 Pcs (salted Caramel tartlet)", Confidence: 1.0},
+  {LHS: ["Tartlets (Filter Kaapi Tartlet)"], RHS: "Tartlets (chocolate Tartlet)", Confidence: 1.0},
+  {LHS: ["Calzones Veg (Calzone Paneer)", "Calzones Veg (Calzone Veg)"], RHS: "Papparoti (Add On Nutella sauce)", Confidence: 1.0},
+  {LHS: ["Calzones Veg (Calzone Paneer)", "Papparoti (Add On Nutella sauce)"], RHS: "Calzones Veg (Calzone Veg)", Confidence: 1.0},
+  {LHS: ["Mix Tartlet 3 Pcs (chocolate Tartlet)", "Calzones Veg (Calzone Paneer)"], RHS: "Mix Tartlet 3 Pcs (salted Caramel tartlet)", Confidence: 1.0},
+  {LHS: ["Calzones Veg (Calzone Paneer)", "Mix Tartlet 3 Pcs (salted Caramel tartlet)"], RHS: "Mix Tartlet 3 Pcs (chocolate Tartlet)", Confidence: 1.0},
+  {LHS: ["Papparoti (Plain)", "Almond Honey Latte (250 ML)"], RHS: "Kaapicino (250 ML)", Confidence: 1.0},
+  {LHS: ["Kaapicino (250 ML)", "Almond Honey Latte (250 ML)"], RHS: "Papparoti (Plain)", Confidence: 1.0},
+  {LHS: ["Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)"], RHS: "Mix Tartlet 3 Pcs (chocolate Tartlet)', 'Mix Tartlet 3 Pcs (salted Caramel tartlet)", Confidence: 1.0},
+  {LHS: ["Mix Tartlet 3 Pcs (chocolate Tartlet)", "Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)"], RHS: "Mix Tartlet 3 Pcs (salted Caramel tartlet)", Confidence: 1.0},
+  {LHS: ["Mix Tartlet 3 Pcs (salted Caramel tartlet)", "Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)"], RHS: "Mix Tartlet 3 Pcs (chocolate Tartlet)", Confidence: 1.0},
+  {LHS: ["Mix Berliner 2 Pcs (Lotus Biscoff Berliner)"], RHS: "Mix Berliner 2 Pcs (Nutella Berliner)", Confidence: 0.7500000000000001},
+  {LHS: ["Mix Berliner 2 Pcs (Blueberry Cheese Cake Berliner)"], RHS: "Mix Berliner 2 Pcs (Nutella Berliner)", Confidence: 0.7500000000000001},
+  {LHS: ["Mix Tartlet 3 Pcs (chocolate Tartlet)"], RHS: "Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)", Confidence: 0.7500000000000001},
+  {LHS: ["Mix Tartlet 3 Pcs (salted Caramel tartlet)"], RHS: "Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)", Confidence: 0.7500000000000001},
+  {LHS: ["Mix Tartlet 3 Pcs (chocolate Tartlet)"], RHS: "Mix Tartlet 3 Pcs (salted Caramel tartlet)', 'Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)", Confidence: 0.7500000000000001},
+  {LHS: ["Mix Tartlet 3 Pcs (salted Caramel tartlet)"], RHS: "Mix Tartlet 3 Pcs (chocolate Tartlet)', 'Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)", Confidence: 0.7500000000000001},
+  {LHS: ["Mix Tartlet 3 Pcs (chocolate Tartlet)", "Mix Tartlet 3 Pcs (salted Caramel tartlet)"], RHS: "Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)", Confidence: 0.7500000000000001},
+  {LHS: ["Add On Syrup (Add On hazelnuts Syrup)"], RHS: "Cafe Latte (250 ML)", Confidence: 0.6666666666666666},
+  {LHS: ["Tartlets (Kacha Nimbu Tartlet)"], RHS: "Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)", Confidence: 0.6666666666666666},
+  {LHS: ["Calzones Veg (Calzone Veg)", "Papparoti (Add On Nutella sauce)"], RHS: "Calzones Veg (Calzone Paneer)", Confidence: 0.6666666666666666},
+  {LHS: ["Papparoti (Plain)", "Origanal South Indian Frappe (350 ML)"], RHS: "Kaapicino (250 ML)", Confidence: 0.6666666666666666},
+  {LHS: ["Kaapicino (250 ML)", "Origanal South Indian Frappe (350 ML)"], RHS: "Papparoti (Plain)", Confidence: 0.666666666666666}
+ ];
+
+// export const aprioriData = [
+//   {"LHS":'harsh',"RHS":'HI',"Confidence":'1'},
+// ];
+
 
 export const chatData = [
   {
