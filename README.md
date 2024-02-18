@@ -1,6 +1,7 @@
 # Cafe Analysis Dashboard
 
-![Ettarra](![image](https://github.com/MurtazaShikari/dashboard/assets/114511800/ffaa2f7f-de1d-44bf-9eb0-4ff5debd001a)
+![Ettarra](![image](https://github.com/MurtazaShikari/dashboard/assets/114511800/1dd1202b-9758-4fe0-8094-996f8c528d69)
+)
 )
 
 ## Overview
