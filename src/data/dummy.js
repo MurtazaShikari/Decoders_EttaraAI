@@ -641,8 +641,8 @@ export const chatData = [
 export const earningData = [
   {
     icon: <MdOutlineSupervisorAccount />,
-    amount: '39,354',
-    percentage: '-4%',
+    amount: '2888',
+    // percentage: '-4%',
     title: 'Customers',
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB',
@@ -650,8 +650,8 @@ export const earningData = [
   },
   {
     icon: <BsBoxSeam />,
-    amount: '4,396',
-    percentage: '+23%',
+    amount: '192',
+    // percentage: '+23%',
     title: 'Products',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
@@ -659,9 +659,9 @@ export const earningData = [
   },
   {
     icon: <FiBarChart />,
-    amount: '423,39',
-    percentage: '+38%',
-    title: 'Sales',
+    amount: '14',
+    // percentage: '+38%',
+    title: 'Categories',
     iconColor: 'rgb(228, 106, 118)',
     iconBg: 'rgb(255, 244, 229)',
 
@@ -669,9 +669,9 @@ export const earningData = [
   },
   {
     icon: <HiOutlineRefresh />,
-    amount: '39,354',
-    percentage: '-12%',
-    title: 'Refunds',
+    amount: '477',
+    // percentage: '-12%',
+    title: 'Reviews',
     iconColor: 'rgb(0, 194, 146)',
     iconBg: 'rgb(235, 250, 242)',
     pcColor: 'red-600',
@@ -935,155 +935,1897 @@ export const ordersGrid = [
 
 export const customersData =[
   {
-      "Name": "Vininjay Sir",
-      "Phone": 9869066351,
-      CustomerImage:
-      avatar2,
+      "Name": "sanket rathod",
+      CustomerImage:avatar4,"Phone": 9833008769.0
   },
   {
-      "Name": "ARNAV/9588263699",
-      "Phone": 9588263699,
-      CustomerImage:
-      avatar3,
+      "Name": "neel",
+      CustomerImage:avatar2,"Phone": 8369680541.0
   },
   {
-      "Name": "Naishar",
-      "Phone": 9819123074,
-      CustomerImage:
-          avatar2,
+      "Name": "samudaya",
+      CustomerImage:avatar,"Phone": 3.0
   },
   {
-      "Name": "adish shah",
-      "Phone": 9167647627,
-      CustomerImage:
-      avatar4,
+      "Name": "shreya",
+      CustomerImage:avatar3,"Phone": 9829430847.0
   },
   {
-      "Name": "Saahil Mukadam",
-      "Phone": 9945672297,
-      CustomerImage:
-      avatar,
+      "Name": "shreyanshi",
+      CustomerImage:avatar2,"Phone": 7903754877.0
   },
   {
-      "Name": "jainam",
-      "Phone": 9930993309,
-      CustomerImage:
-          avatar3,
+      "Name": "dhruv",
+      CustomerImage:avatar,"Phone": 9702932166.0
   },
   {
-      "Name": "Dhananjay Sir",
-      "Phone": 1111111111,
-      CustomerImage:
-      avatar4,
+      "Name": "akshat",
+      CustomerImage:avatar4,"Phone": 7999750116.0
   },
   {
-      "Name": "Kasturi Datar",
-      "Phone": 9920107686,
-      CustomerImage:
-      avatar2,
+      "Name": "Dhruv kumaaar\\8273454326",
+      CustomerImage:avatar3,"Phone": 8273454326.0
   },
   {
-      "Name": "vedit photo shoot",
-      "Phone": 9324291794,
-      CustomerImage:
-      avatar2,
+      "Name": "Shubhum Shah",
+      CustomerImage:avatar,"Phone": 9619516050.0
   },
   {
-      "Name": "vatsal/9821554200",
-      "Phone": 9821554200,
-      CustomerImage:
-      avatar2,
+      "Name": "Doctor Valerie Dmello/Jay Anna",
+      CustomerImage:avatar4,"Phone": 9892091625.0
   },
   {
-      "Name": "sujay sir",
-      "Phone": 8652510000,
-      CustomerImage:
-      avatar2,
+      "Name": "umang",
+      CustomerImage:avatar3,"Phone": 9930714899.0
   },
   {
-      "Name": "Darsh Gogia",
-      "Phone": 9354450150,
-      CustomerImage:
-      avatar2,
-  },
-  {
-      "Name": "SaiRaj Sir",
-      "Phone": 9819995469,
-      CustomerImage:
-      avatar2,
-  },
-  {
-      "Name": "Guari",
-      "Phone": 9819838852,
-      CustomerImage:
-          avatar2,
-  },
-  {
-      "Name": "sidhanth sharma",
-      "Phone": 9903678967,
-      CustomerImage:
-      avatar2,
+      "Name": "sahina",
+      CustomerImage:avatar2,"Phone": 9702017839.0
   },
   {
       "Name": "ASIF SHAIKH",
-      "Phone": 9382107892,
-      CustomerImage:
-      avatar2,
+      CustomerImage:avatar2,"Phone": 9382107892.0
   },
   {
-      "Name": "Kasvi",
-      "Phone": 9819986943,
-      CustomerImage:
-          avatar2,
+      "Name": "kundan",
+      CustomerImage:avatar2,"Phone": 9082203571.0
   },
   {
-      "Name": "Ravish",
-      "Phone": 9619178347,
-      CustomerImage:
-          avatar2,
+      "Name": "shashank",
+      CustomerImage:avatar2,"Phone": 8818806789.0
   },
   {
-      "Name": "hamza",
-      "Phone": 9372563584,
-      CustomerImage:
-          avatar2,
+      "Name": "Vininjay Sir",
+      CustomerImage:avatar2,"Phone": 9869066351.0
   },
   {
-      "Name": "kartik",
-      "Phone": 9768413111,
-      CustomerImage:
-          avatar2,
+      "Name": "aadi",
+      CustomerImage:avatar2,"Phone": 9878811600.0
+  },
+  {
+      "Name": "khushal",
+      CustomerImage:avatar2,"Phone": 7721893339.0
+  },
+  {
+      "Name": "sujay sir",
+      CustomerImage:avatar2,"Phone": 8652510000.0
+  },
+  {
+      "Name": "dab",
+      CustomerImage:avatar2,"Phone": 9867678987.0
+  },
+  {
+      "Name": "JABBAR\\9002495461",
+      CustomerImage:avatar2,"Phone": 9002495461.0
+  },
+  {
+      "Name": "Saheba",
+      CustomerImage:avatar2,"Phone": 9999496803.0
+  },
+  {
+      "Name": "deepak chef",
+      CustomerImage:avatar2,"Phone": 9167462870.0
+  },
+  {
+      "Name": "NARESH",
+      CustomerImage:avatar2,"Phone": 7021274723.0
+  },
+  {
+      "Name": "ARNAV/9588263699",
+      CustomerImage:avatar2,"Phone": 9588263699.0
+  },
+  {
+      "Name": "Dhananjay Sir",
+      CustomerImage:avatar2,"Phone": 1111111111.0
+  },
+  {
+      "Name": "sidhanth sharma/daddy",
+      CustomerImage:avatar2,"Phone": 9903678967.0
+  },
+  {
+      "Name": "amol",
+      CustomerImage:avatar2,"Phone": 7823841899.0
+  },
+  {
+      "Name": "SIDI SHAH",
+      CustomerImage:avatar2,"Phone": 9619138408.0
+  },
+  {
+      "Name": "Naishar",
+      CustomerImage:avatar2,"Phone": 9819123074.0
+  },
+  {
+      "Name": "priyankk",
+      CustomerImage:avatar2,"Phone": 9079977369.0
+  },
+  {
+      "Name": "adish shah",
+      CustomerImage:avatar2,"Phone": 9167647627.0
+  },
+  {
+      "Name": "niyeti a",
+      CustomerImage:avatar2,"Phone": 9137585536.0
+  },
+  {
+      "Name": "Aanya",
+      CustomerImage:avatar2,"Phone": 9875402270.0
+  },
+  {
+      "Name": "pranay jain",
+      CustomerImage:avatar2,"Phone": 9311134003.0
+  },
+  {
+      "Name": "asha",
+      CustomerImage:avatar2,"Phone": 9773659002.0
+  },
+  {
+      "Name": "aayushi saraf",
+      CustomerImage:avatar2,"Phone": 9765999655.0
+  },
+  {
+      "Name": "teena",
+      CustomerImage:avatar2,"Phone": 9967349286.0
+  },
+  {
+      "Name": "allah baksh",
+      CustomerImage:avatar2,"Phone": 9324609696.0
+  },
+  {
+      "Name": "shubham",
+      CustomerImage:avatar2,"Phone": 8850701966.0
+  },
+  {
+      "Name": "SaiRaj Sir",
+      CustomerImage:avatar2,"Phone": 9819995469.0
+  },
+  {
+      "Name": "khushal",
+      CustomerImage:avatar2,"Phone": 8169537850.0
+  },
+  {
+      "Name": "aman",
+      CustomerImage:avatar2,"Phone": 9930943499.0
   },
   {
       "Name": "Nagesh Anna",
-      "Phone": 9901231662,
-      CustomerImage:
-      avatar2,
+      CustomerImage:avatar2,"Phone": 9901231662.0
+  },
+  {
+      "Name": "SWIGGY",
+      CustomerImage:avatar2,"Phone": 3340585576.0
+  },
+  {
+      "Name": "Sanjay mehta melting Pot",
+      CustomerImage:avatar2,"Phone": 9323880927.0
+  },
+  {
+      "Name": "priti jha",
+      CustomerImage:avatar2,"Phone": 9334561141.0
+  },
+  {
+      "Name": "Sabina /7021105769",
+      CustomerImage:avatar2,"Phone": 7021105769.0
+  },
+  {
+      "Name": "saurabh ash",
+      CustomerImage:avatar2,"Phone": 9867654294.0
+  },
+  {
+      "Name": "Dhananjay Sir/room guest",
+      CustomerImage:avatar2,"Phone": 1111111111.0
+  },
+  {
+      "Name": "mohit sadhwani",
+      CustomerImage:avatar2,"Phone": 9833337890.0
+  },
+  {
+      "Name": "SHUBHAAAMM/mommyyyy",
+      CustomerImage:avatar2,"Phone": 8017689593.0
+  },
+  {
+      "Name": "ankit",
+      CustomerImage:avatar2,"Phone": 9833633361.0
+  },
+  {
+      "Name": "nitin m",
+      CustomerImage:avatar2,"Phone": 8652569567.0
+  },
+  {
+      "Name": "kartik/9768413111",
+      CustomerImage:avatar2,"Phone": 9768413111.0
+  },
+  {
+      "Name": "NEHA",
+      CustomerImage:avatar2,"Phone": 9930003677.0
+  },
+  {
+      "Name": "Saahil Mukadam/9945672297",
+      CustomerImage:avatar2,"Phone": 9945672297.0
+  },
+  {
+      "Name": "jainam",
+      CustomerImage:avatar2,"Phone": 9930993309.0
+  },
+  {
+      "Name": "kunal/9769255313",
+      CustomerImage:avatar2,"Phone": 9769255313.0
+  },
+  {
+      "Name": "gheet",
+      CustomerImage:avatar2,"Phone": 9930990039.0
+  },
+  {
+      "Name": "sachin",
+      CustomerImage:avatar2,"Phone": 9810076504.0
+  },
+  {
+      "Name": "Akshay sabo",
+      CustomerImage:avatar2,"Phone": 9969324543.0
+  },
+  {
+      "Name": "ashtha",
+      CustomerImage:avatar2,"Phone": 9326478859.0
+  },
+  {
+      "Name": "kunal mittal",
+      CustomerImage:avatar2,"Phone": 9702017329.0
+  },
+  {
+      "Name": "gupta",
+      CustomerImage:avatar2,"Phone": 9869434118.0
+  },
+  {
+      "Name": "runuk",
+      CustomerImage:avatar2,"Phone": 9582052121.0
+  },
+  {
+      "Name": "amishah",
+      CustomerImage:avatar2,"Phone": 9167952215.0
+  },
+  {
+      "Name": "jotika",
+      CustomerImage:avatar2,"Phone": 8076797155.0
+  },
+  {
+      "Name": "mehul",
+      CustomerImage:avatar2,"Phone": 8107407900.0
+  },
+  {
+      "Name": "raahil",
+      CustomerImage:avatar2,"Phone": 9825523603.0
+  },
+  {
+      "Name": "Kasturi Datar",
+      CustomerImage:avatar2,"Phone": 9920107686.0
+  },
+  {
+      "Name": "kritin",
+      CustomerImage:avatar2,"Phone": 8657427899.0
+  },
+  {
+      "Name": "yashvi",
+      CustomerImage:avatar2,"Phone": 7045256838.0
+  },
+  {
+      "Name": "YASIN / 6297069592",
+      CustomerImage:avatar2,"Phone": 6297069592.0
+  },
+  {
+      "Name": "brijesh",
+      CustomerImage:avatar2,"Phone": 8655732605.0
+  },
+  {
+      "Name": "Meet",
+      CustomerImage:avatar2,"Phone": 9166355353.0
+  },
+  {
+      "Name": "shreya",
+      CustomerImage:avatar2,"Phone": 9819839741.0
+  },
+  {
+      "Name": "noel",
+      CustomerImage:avatar2,"Phone": 9920085188.0
+  },
+  {
+      "Name": "ved",
+      CustomerImage:avatar2,"Phone": 9372481297.0
+  },
+  {
+      "Name": "Sidhharth",
+      CustomerImage:avatar2,"Phone": 9760211796.0
+  },
+  {
+      "Name": "vedit photo shoot",
+      CustomerImage:avatar2,"Phone": 9324291794.0
+  },
+  {
+      "Name": "gauravi",
+      CustomerImage:avatar2,"Phone": 8828467217.0
+  },
+  {
+      "Name": "purvesh",
+      CustomerImage:avatar2,"Phone": 9619480719.0
+  },
+  {
+      "Name": "shashank",
+      CustomerImage:avatar2,"Phone": 9535751749.0
+  },
+  {
+      "Name": "Karan",
+      CustomerImage:avatar2,"Phone": 8511120790.0
+  },
+  {
+      "Name": "mahir Advani",
+      CustomerImage:avatar2,"Phone": 9833028820.0
+  },
+  {
+      "Name": "kosha",
+      CustomerImage:avatar2,"Phone": 9833904424.0
+  },
+  {
+      "Name": "Melissa",
+      CustomerImage:avatar2,"Phone": 9892969791.0
+  },
+  {
+      "Name": "Lakhi Salian Barista",
+      CustomerImage:avatar2,"Phone": 9967935947.0
+  },
+  {
+      "Name": "jinesh",
+      CustomerImage:avatar2,"Phone": 7666203759.0
+  },
+  {
+      "Name": "dhiresh",
+      CustomerImage:avatar2,"Phone": 9029411690.0
+  },
+  {
+      "Name": "janvy",
+      CustomerImage:avatar2,"Phone": 8080077191.0
+  },
+  {
+      "Name": "koma",
+      CustomerImage:avatar2,"Phone": 7030453360.0
+  },
+  {
+      "Name": "khushik",
+      CustomerImage:avatar2,"Phone": 8888900924.0
+  },
+  {
+      "Name": "kajal",
+      CustomerImage:avatar2,"Phone": 9869722401.0
+  },
+  {
+      "Name": "kunal",
+      CustomerImage:avatar2,"Phone": 9522760000.0
+  },
+  {
+      "Name": "pratik",
+      CustomerImage:avatar2,"Phone": 9930505512.0
+  },
+  {
+      "Name": "danish",
+      CustomerImage:avatar2,"Phone": 9816140572.0
+  },
+  {
+      "Name": "Sachin Sir Honrao",
+      CustomerImage:avatar2,"Phone": 9004495943.0
+  },
+  {
+      "Name": "Aditya shahri",
+      CustomerImage:avatar2,"Phone": 8964026507.0
+  },
+  {
+      "Name": "Amitesh",
+      CustomerImage:avatar2,"Phone": 9920582922.0
+  },
+  {
+      "Name": "uady anna",
+      CustomerImage:avatar2,"Phone": 4444444444.0
+  },
+  {
+      "Name": "nitin shah",
+      CustomerImage:avatar2,"Phone": 9930941136.0
+  },
+  {
+      "Name": "harsh",
+      CustomerImage:avatar2,"Phone": 9372055653.0
+  },
+  {
+      "Name": "Harshit",
+      CustomerImage:avatar2,"Phone": 8440845564.0
+  },
+  {
+      "Name": "yash D",
+      CustomerImage:avatar2,"Phone": 9820166636.0
+  },
+  {
+      "Name": "rizan",
+      CustomerImage:avatar2,"Phone": 9167390991.0
+  },
+  {
+      "Name": "addya",
+      CustomerImage:avatar2,"Phone": 9905191010.0
+  },
+  {
+      "Name": "rahul",
+      CustomerImage:avatar2,"Phone": 7588444101.0
+  },
+  {
+      "Name": "jay",
+      CustomerImage:avatar2,"Phone": 9870988069.0
+  },
+  {
+      "Name": "parathi",
+      CustomerImage:avatar2,"Phone": 8879954487.0
+  },
+  {
+      "Name": "Manali",
+      CustomerImage:avatar2,"Phone": 9819557758.0
+  },
+  {
+      "Name": "RAAAHIL",
+      CustomerImage:avatar2,"Phone": 9167156829.0
+  },
+  {
+      "Name": "aartij",
+      CustomerImage:avatar2,"Phone": 9769325898.0
+  },
+  {
+      "Name": "shruti",
+      CustomerImage:avatar2,"Phone": 8077665959.0
+  },
+  {
+      "Name": "Awadhi",
+      CustomerImage:avatar2,"Phone": 7000446734.0
+  },
+  {
+      "Name": "anisha bihani",
+      CustomerImage:avatar2,"Phone": 9285123600.0
+  },
+  {
+      "Name": "monica hh",
+      CustomerImage:avatar2,"Phone": 9869318083.0
+  },
+  {
+      "Name": "advik",
+      CustomerImage:avatar2,"Phone": 9987337220.0
+  },
+  {
+      "Name": "SOWMYA",
+      CustomerImage:avatar2,"Phone": 8279830459.0
+  },
+  {
+      "Name": "bhavin doshi",
+      CustomerImage:avatar2,"Phone": 9819842321.0
+  },
+  {
+      "Name": "anchal",
+      CustomerImage:avatar2,"Phone": 7016846708.0
+  },
+  {
+      "Name": "neelesh",
+      CustomerImage:avatar2,"Phone": 7838823636.0
+  },
+  {
+      "Name": "Vimal Bha / Boss Friend",
+      CustomerImage:avatar2,"Phone": 9820295555.0
+  },
+  {
+      "Name": "rohan",
+      CustomerImage:avatar2,"Phone": 9043673736.0
+  },
+  {
+      "Name": "shruti",
+      CustomerImage:avatar2,"Phone": 9769422249.0
+  },
+  {
+      "Name": "kavya",
+      CustomerImage:avatar2,"Phone": 9967279226.0
+  },
+  {
+      "Name": "Shreya jain",
+      CustomerImage:avatar2,"Phone": 8696930000.0
+  },
+  {
+      "Name": "Priti",
+      CustomerImage:avatar2,"Phone": 9136679934.0
+  },
+  {
+      "Name": "Asmi Anand",
+      CustomerImage:avatar2,"Phone": 8045686321.0
+  },
+  {
+      "Name": "Babu Anna Sir",
+      CustomerImage:avatar2,"Phone": 9869441122.0
+  },
+  {
+      "Name": "Samaira Sandhu",
+      CustomerImage:avatar2,"Phone": 9914500788.0
+  },
+  {
+      "Name": "MANAS",
+      CustomerImage:avatar2,"Phone": 9423150361.0
+  },
+  {
+      "Name": "piyush",
+      CustomerImage:avatar2,"Phone": 6287310405.0
+  },
+  {
+      "Name": "sujay sir/sharavan",
+      CustomerImage:avatar2,"Phone": 8652510000.0
+  },
+  {
+      "Name": "Pratham",
+      CustomerImage:avatar2,"Phone": 9082809070.0
+  },
+  {
+      "Name": "shivani shah",
+      CustomerImage:avatar2,"Phone": 9930759839.0
+  },
+  {
+      "Name": "shikha",
+      CustomerImage:avatar2,"Phone": 9833060105.0
+  },
+  {
+      "Name": "Pratik B",
+      CustomerImage:avatar2,"Phone": 8980452380.0
+  },
+  {
+      "Name": "shurbhi",
+      CustomerImage:avatar2,"Phone": 9924737954.0
+  },
+  {
+      "Name": "vatsal/9821554200",
+      CustomerImage:avatar2,"Phone": 9821554200.0
+  },
+  {
+      "Name": "Ishan sharma",
+      CustomerImage:avatar2,"Phone": 8966054333.0
+  },
+  {
+      "Name": "parth",
+      CustomerImage:avatar2,"Phone": 7738402838.0
+  },
+  {
+      "Name": "ritika",
+      CustomerImage:avatar2,"Phone": 7225999975.0
+  },
+  {
+      "Name": "fara",
+      CustomerImage:avatar2,"Phone": 9820460251.0
+  },
+  {
+      "Name": "parinita",
+      CustomerImage:avatar2,"Phone": 8291100388.0
+  },
+  {
+      "Name": "khusbo ratnani/9175157000",
+      CustomerImage:avatar2,"Phone": 9175157000.0
+  },
+  {
+      "Name": "Vanshika Agarwal",
+      CustomerImage:avatar2,"Phone": 7077729100.0
+  },
+  {
+      "Name": "partham",
+      CustomerImage:avatar2,"Phone": 9699425425.0
+  },
+  {
+      "Name": "ayra",
+      CustomerImage:avatar2,"Phone": 7499325914.0
+  },
+  {
+      "Name": "Dhananjay Sir",
+      CustomerImage:avatar2,"Phone": 1111111110.0
+  },
+  {
+      "Name": "ankit",
+      CustomerImage:avatar2,"Phone": 9819990489.0
+  },
+  {
+      "Name": "SWAYAM",
+      CustomerImage:avatar2,"Phone": 7977382598.0
+  },
+  {
+      "Name": "chirag jay shah/9819899965",
+      CustomerImage:avatar2,"Phone": 9819899965.0
+  },
+  {
+      "Name": "KRUNAL",
+      CustomerImage:avatar2,"Phone": 9930051433.0
+  },
+  {
+      "Name": "thea",
+      CustomerImage:avatar2,"Phone": 7738451044.0
+  },
+  {
+      "Name": "KUNAL",
+      CustomerImage:avatar2,"Phone": 9930051433.0
+  },
+  {
+      "Name": "Svkriti",
+      CustomerImage:avatar2,"Phone": 7738117526.0
+  },
+  {
+      "Name": "ruhi",
+      CustomerImage:avatar2,"Phone": 9167837980.0
+  },
+  {
+      "Name": "biral",
+      CustomerImage:avatar2,"Phone": 9821244313.0
+  },
+  {
+      "Name": "madhav",
+      CustomerImage:avatar2,"Phone": 7007483639.0
+  },
+  {
+      "Name": "yuvraj Bhansali",
+      CustomerImage:avatar2,"Phone": 9957997937.0
+  },
+  {
+      "Name": "Magha",
+      CustomerImage:avatar2,"Phone": 9820224008.0
+  },
+  {
+      "Name": "mukraj",
+      CustomerImage:avatar2,"Phone": 7718859036.0
+  },
+  {
+      "Name": "rojul",
+      CustomerImage:avatar2,"Phone": 9713445772.0
+  },
+  {
+      "Name": "shubi",
+      CustomerImage:avatar2,"Phone": 7014457704.0
+  },
+  {
+      "Name": "aashna",
+      CustomerImage:avatar2,"Phone": 9971148084.0
+  },
+  {
+      "Name": "tejas patel",
+      CustomerImage:avatar2,"Phone": 8433777234.0
+  },
+  {
+      "Name": "kalppp",
+      CustomerImage:avatar2,"Phone": 7045418285.0
+  },
+  {
+      "Name": "sanil",
+      CustomerImage:avatar2,"Phone": 9137596326.0
+  },
+  {
+      "Name": "shruti",
+      CustomerImage:avatar2,"Phone": 9769087539.0
+  },
+  {
+      "Name": "Darsh Gogia",
+      CustomerImage:avatar2,"Phone": 9354450150.0
+  },
+  {
+      "Name": "saket singhania",
+      CustomerImage:avatar2,"Phone": 8080029370.0
+  },
+  {
+      "Name": "darpan",
+      CustomerImage:avatar2,"Phone": 9687264572.0
+  },
+  {
+      "Name": "shubaham",
+      CustomerImage:avatar2,"Phone": 9730080167.0
+  },
+  {
+      "Name": "anuay",
+      CustomerImage:avatar2,"Phone": 9167901983.0
+  },
+  {
+      "Name": "shruti",
+      CustomerImage:avatar2,"Phone": 9819064749.0
+  },
+  {
+      "Name": "yash",
+      CustomerImage:avatar2,"Phone": 9930675406.0
+  },
+  {
+      "Name": "hem",
+      CustomerImage:avatar2,"Phone": 7977772033.0
+  },
+  {
+      "Name": "manan gada",
+      CustomerImage:avatar2,"Phone": 8898042364.0
+  },
+  {
+      "Name": "RAMONA",
+      CustomerImage:avatar2,"Phone": 9820013269.0
+  },
+  {
+      "Name": "vishal",
+      CustomerImage:avatar2,"Phone": 9930211991.0
+  },
+  {
+      "Name": "khush",
+      CustomerImage:avatar2,"Phone": 8287621273.0
+  },
+  {
+      "Name": "anshika",
+      CustomerImage:avatar2,"Phone": 7017246612.0
+  },
+  {
+      "Name": "Guari",
+      CustomerImage:avatar2,"Phone": 9819838852.0
+  },
+  {
+      "Name": "nitishaaa",
+      CustomerImage:avatar2,"Phone": 8319010426.0
+  },
+  {
+      "Name": "Smit Mehta",
+      CustomerImage:avatar2,"Phone": 9769842922.0
+  },
+  {
+      "Name": "nakksh",
+      CustomerImage:avatar2,"Phone": 8898040343.0
+  },
+  {
+      "Name": "KABIR",
+      CustomerImage:avatar2,"Phone": 9930037855.0
+  },
+  {
+      "Name": "hanshul",
+      CustomerImage:avatar2,"Phone": 9819198925.0
+  },
+  {
+      "Name": "rishab",
+      CustomerImage:avatar2,"Phone": 9820122902.0
+  },
+  {
+      "Name": "niel",
+      CustomerImage:avatar2,"Phone": 9821571836.0
+  },
+  {
+      "Name": "kumar",
+      CustomerImage:avatar2,"Phone": 9321116715.0
+  },
+  {
+      "Name": "VERONII",
+      CustomerImage:avatar2,"Phone": 9619062658.0
+  },
+  {
+      "Name": "dia",
+      CustomerImage:avatar2,"Phone": 9356995725.0
+  },
+  {
+      "Name": "nirali",
+      CustomerImage:avatar2,"Phone": 9920807157.0
+  },
+  {
+      "Name": "manish",
+      CustomerImage:avatar2,"Phone": 8527812226.0
+  },
+  {
+      "Name": "dipshika jain",
+      CustomerImage:avatar2,"Phone": 9819851510.0
+  },
+  {
+      "Name": "sahil",
+      CustomerImage:avatar2,"Phone": 8779595307.0
+  },
+  {
+      "Name": "Neil",
+      CustomerImage:avatar2,"Phone": 8875773476.0
+  },
+  {
+      "Name": "aryan",
+      CustomerImage:avatar2,"Phone": 8758876454.0
+  },
+  {
+      "Name": "dherandra/9967165285",
+      CustomerImage:avatar2,"Phone": 9967165285.0
+  },
+  {
+      "Name": "Anit kishna",
+      CustomerImage:avatar2,"Phone": 9819318326.0
+  },
+  {
+      "Name": "shanky",
+      CustomerImage:avatar2,"Phone": 8447551134.0
+  },
+  {
+      "Name": "harsh",
+      CustomerImage:avatar2,"Phone": 9372505653.0
+  },
+  {
+      "Name": "Dr.Punjabi",
+      CustomerImage:avatar2,"Phone": 9821162851.0
+  },
+  {
+      "Name": "gaurang",
+      CustomerImage:avatar2,"Phone": 9820770054.0
+  },
+  {
+      "Name": "shahbaz",
+      CustomerImage:avatar2,"Phone": 7710976649.0
+  },
+  {
+      "Name": "garima",
+      CustomerImage:avatar2,"Phone": 9619866132.0
+  },
+  {
+      "Name": "ritvikka",
+      CustomerImage:avatar2,"Phone": 7777031905.0
+  },
+  {
+      "Name": "anurag",
+      CustomerImage:avatar2,"Phone": 8390123130.0
+  },
+  {
+      "Name": "pun",
+      CustomerImage:avatar2,"Phone": 6283132339.0
+  },
+  {
+      "Name": "KHUSHI",
+      CustomerImage:avatar2,"Phone": 9004874734.0
+  },
+  {
+      "Name": "Shrushti",
+      CustomerImage:avatar2,"Phone": 8779801572.0
+  },
+  {
+      "Name": "jia",
+      CustomerImage:avatar2,"Phone": 8928608861.0
+  },
+  {
+      "Name": "MUKESH RESEPSHION\\9167440603",
+      CustomerImage:avatar2,"Phone": 9167440603.0
+  },
+  {
+      "Name": "dinal chef bakery",
+      CustomerImage:avatar2,"Phone": 9909919390.0
+  },
+  {
+      "Name": "khushi",
+      CustomerImage:avatar2,"Phone": 9004874734.0
+  },
+  {
+      "Name": "aaju bhai",
+      CustomerImage:avatar2,"Phone": 2000000000.0
+  },
+  {
+      "Name": "parin",
+      CustomerImage:avatar2,"Phone": 8424804718.0
+  },
+  {
+      "Name": "paras h",
+      CustomerImage:avatar2,"Phone": 9823456917.0
+  },
+  {
+      "Name": "sarvshrest singh",
+      CustomerImage:avatar2,"Phone": 9981800982.0
+  },
+  {
+      "Name": "anurag",
+      CustomerImage:avatar2,"Phone": 9870115599.0
+  },
+  {
+      "Name": "archita",
+      CustomerImage:avatar2,"Phone": 8437600842.0
+  },
+  {
+      "Name": "ritika",
+      CustomerImage:avatar2,"Phone": 9167661698.0
+  },
+  {
+      "Name": "anurag",
+      CustomerImage:avatar2,"Phone": 9022519300.0
+  },
+  {
+      "Name": "priti vyas",
+      CustomerImage:avatar2,"Phone": 9820002264.0
+  },
+  {
+      "Name": "Sabina chef",
+      CustomerImage:avatar2,"Phone": 9867365002.0
+  },
+  {
+      "Name": "divanshi",
+      CustomerImage:avatar2,"Phone": 7275575915.0
+  },
+  {
+      "Name": "nischal/guest complimentry",
+      CustomerImage:avatar2,"Phone": 9167626266.0
+  },
+  {
+      "Name": "kirsh",
+      CustomerImage:avatar2,"Phone": 9819499968.0
+  },
+  {
+      "Name": "mishal",
+      CustomerImage:avatar2,"Phone": 8879776992.0
+  },
+  {
+      "Name": "vashi",
+      CustomerImage:avatar2,"Phone": 8462910091.0
+  },
+  {
+      "Name": "Nihal",
+      CustomerImage:avatar2,"Phone": 9702514943.0
+  },
+  {
+      "Name": "Ekansh",
+      CustomerImage:avatar2,"Phone": 9910639481.0
+  },
+  {
+      "Name": "nischal",
+      CustomerImage:avatar2,"Phone": 9167626266.0
+  },
+  {
+      "Name": "sanjana thakur",
+      CustomerImage:avatar2,"Phone": 7506196918.0
+  },
+  {
+      "Name": "neha",
+      CustomerImage:avatar2,"Phone": 9619900269.0
+  },
+  {
+      "Name": "krishna",
+      CustomerImage:avatar2,"Phone": 9167402302.0
+  },
+  {
+      "Name": "soumya",
+      CustomerImage:avatar2,"Phone": 7755005292.0
+  },
+  {
+      "Name": "sayam",
+      CustomerImage:avatar2,"Phone": 8920219476.0
+  },
+  {
+      "Name": "ajju sir",
+      CustomerImage:avatar2,"Phone": 1231231231.0
+  },
+  {
+      "Name": "vishrut",
+      CustomerImage:avatar2,"Phone": 9909004236.0
+  },
+  {
+      "Name": "Rishab",
+      CustomerImage:avatar2,"Phone": 9833161944.0
+  },
+  {
+      "Name": "rishab Chef",
+      CustomerImage:avatar2,"Phone": 9820896494.0
+  },
+  {
+      "Name": "adnan",
+      CustomerImage:avatar2,"Phone": 9152390107.0
+  },
+  {
+      "Name": "hamza",
+      CustomerImage:avatar2,"Phone": 9372563584.0
+  },
+  {
+      "Name": "gautam",
+      CustomerImage:avatar2,"Phone": 9479525993.0
+  },
+  {
+      "Name": "dev",
+      CustomerImage:avatar2,"Phone": 9403411212.0
+  },
+  {
+      "Name": "PARTH",
+      CustomerImage:avatar2,"Phone": 9372970819.0
+  },
+  {
+      "Name": "mini",
+      CustomerImage:avatar2,"Phone": 9810019295.0
+  },
+  {
+      "Name": "tavisha",
+      CustomerImage:avatar2,"Phone": 7002326638.0
+  },
+  {
+      "Name": "khushiiiiiii",
+      CustomerImage:avatar2,"Phone": 8261879284.0
+  },
+  {
+      "Name": "Ashta",
+      CustomerImage:avatar2,"Phone": 9356431254.0
+  },
+  {
+      "Name": "sunny naiyak",
+      CustomerImage:avatar2,"Phone": 9830709606.0
+  },
+  {
+      "Name": "shruti",
+      CustomerImage:avatar2,"Phone": 9617645569.0
+  },
+  {
+      "Name": "kanak",
+      CustomerImage:avatar2,"Phone": 8788182950.0
+  },
+  {
+      "Name": "roniiitttt",
+      CustomerImage:avatar2,"Phone": 9068665217.0
+  },
+  {
+      "Name": "UDAY ANNA [MD GAST]",
+      CustomerImage:avatar2,"Phone": 101010101.0
+  },
+  {
+      "Name": "ANKIT",
+      CustomerImage:avatar2,"Phone": 8779249137.0
+  },
+  {
+      "Name": "Yuvraj Shewani",
+      CustomerImage:avatar2,"Phone": 8045689310.0
+  },
+  {
+      "Name": "devanshiiiii",
+      CustomerImage:avatar2,"Phone": 9768244084.0
+  },
+  {
+      "Name": "sharukh",
+      CustomerImage:avatar2,"Phone": 7715046238.0
+  },
+  {
+      "Name": "anish",
+      CustomerImage:avatar2,"Phone": 9820547478.0
+  },
+  {
+      "Name": "jALAnj",
+      CustomerImage:avatar2,"Phone": 8847003654.0
+  },
+  {
+      "Name": "SHAIBAM",
+      CustomerImage:avatar2,"Phone": 9624559856.0
+  },
+  {
+      "Name": "Sagar",
+      CustomerImage:avatar2,"Phone": 9930553970.0
+  },
+  {
+      "Name": "afreen",
+      CustomerImage:avatar2,"Phone": 9769039715.0
+  },
+  {
+      "Name": "BHAVESH SHETH",
+      CustomerImage:avatar2,"Phone": 9820032013.0
+  },
+  {
+      "Name": "pragati",
+      CustomerImage:avatar2,"Phone": 7088887781.0
+  },
+  {
+      "Name": "akhil",
+      CustomerImage:avatar2,"Phone": 9819229205.0
+  },
+  {
+      "Name": "Juhi K",
+      CustomerImage:avatar2,"Phone": 7999750066.0
+  },
+  {
+      "Name": "rapika",
+      CustomerImage:avatar2,"Phone": 9711906882.0
+  },
+  {
+      "Name": "rupal thakre",
+      CustomerImage:avatar2,"Phone": 8879006176.0
+  },
+  {
+      "Name": "RITESH MEHTA",
+      CustomerImage:avatar2,"Phone": 9819886870.0
+  },
+  {
+      "Name": "Zenith Corporation",
+      CustomerImage:avatar2,"Phone": 8046803296.0
+  },
+  {
+      "Name": "punneet",
+      CustomerImage:avatar2,"Phone": 6283132339.0
+  },
+  {
+      "Name": "ZUBRAZ",
+      CustomerImage:avatar2,"Phone": 8780333465.0
+  },
+  {
+      "Name": "shubham",
+      CustomerImage:avatar2,"Phone": 8946988461.0
+  },
+  {
+      "Name": "tina",
+      CustomerImage:avatar2,"Phone": 9967349286.0
+  },
+  {
+      "Name": "hitne",
+      CustomerImage:avatar2,"Phone": 9860667744.0
+  },
+  {
+      "Name": "abhilash",
+      CustomerImage:avatar2,"Phone": 9847607644.0
+  },
+  {
+      "Name": "RAJ SHAH",
+      CustomerImage:avatar2,"Phone": 7558444101.0
+  },
+  {
+      "Name": "Kasvi",
+      CustomerImage:avatar2,"Phone": 9819986943.0
+  },
+  {
+      "Name": "saurabh",
+      CustomerImage:avatar2,"Phone": 9819783535.0
+  },
+  {
+      "Name": "inaya",
+      CustomerImage:avatar2,"Phone": 9550820547.0
+  },
+  {
+      "Name": "faiza",
+      CustomerImage:avatar2,"Phone": 9920932908.0
+  },
+  {
+      "Name": "kanika",
+      CustomerImage:avatar2,"Phone": 9870418873.0
+  },
+  {
+      "Name": "mihika",
+      CustomerImage:avatar2,"Phone": 7017481082.0
+  },
+  {
+      "Name": "Ravish",
+      CustomerImage:avatar2,"Phone": 9619178347.0
+  },
+  {
+      "Name": "khushi",
+      CustomerImage:avatar2,"Phone": 7999054010.0
+  },
+  {
+      "Name": "dheer",
+      CustomerImage:avatar2,"Phone": 9638633133.0
+  },
+  {
+      "Name": "yash deora",
+      CustomerImage:avatar2,"Phone": 7977131797.0
+  },
+  {
+      "Name": "SAHEBA",
+      CustomerImage:avatar2,"Phone": 8899496803.0
+  },
+  {
+      "Name": "harshaaall",
+      CustomerImage:avatar2,"Phone": 9702099930.0
+  },
+  {
+      "Name": "M",
+      CustomerImage:avatar2,"Phone": 9820787973.0
+  },
+  {
+      "Name": "subarna",
+      CustomerImage:avatar2,"Phone": 8082427220.0
+  },
+  {
+      "Name": "shivangi",
+      CustomerImage:avatar2,"Phone": 9559562063.0
+  },
+  {
+      "Name": "rishi tapa",
+      CustomerImage:avatar2,"Phone": 7709009197.0
+  },
+  {
+      "Name": "aiaan",
+      CustomerImage:avatar2,"Phone": 8275178569.0
+  },
+  {
+      "Name": "devanshhh",
+      CustomerImage:avatar2,"Phone": 8369273690.0
+  },
+  {
+      "Name": "amil lakhani",
+      CustomerImage:avatar2,"Phone": 9820515836.0
+  },
+  {
+      "Name": "Trisha Mehra",
+      CustomerImage:avatar2,"Phone": 9819800446.0
+  },
+  {
+      "Name": "pratik",
+      CustomerImage:avatar2,"Phone": 9819892504.0
+  },
+  {
+      "Name": "kamran",
+      CustomerImage:avatar2,"Phone": 9500967411.0
+  },
+  {
+      "Name": "priti",
+      CustomerImage:avatar2,"Phone": 9742480812.0
+  },
+  {
+      "Name": "vivek latte /tap water",
+      CustomerImage:avatar2,"Phone": 9867616029.0
+  },
+  {
+      "Name": "Jeet Shah",
+      CustomerImage:avatar2,"Phone": 9773458019.0
+  },
+  {
+      "Name": "pratyush",
+      CustomerImage:avatar2,"Phone": 9833898285.0
+  },
+  {
+      "Name": "Rashi Dr",
+      CustomerImage:avatar2,"Phone": 9821522669.0
+  },
+  {
+      "Name": "rahulllllll",
+      CustomerImage:avatar2,"Phone": 9920571998.0
+  },
+  {
+      "Name": "Manas",
+      CustomerImage:avatar2,"Phone": 9769901020.0
+  },
+  {
+      "Name": "hanshuka",
+      CustomerImage:avatar2,"Phone": 6289843465.0
+  },
+  {
+      "Name": "harsh",
+      CustomerImage:avatar2,"Phone": 7718855147.0
+  },
+  {
+      "Name": "Surekha Mam",
+      CustomerImage:avatar2,"Phone": 3332222444.0
+  },
+  {
+      "Name": "SIDDHART",
+      CustomerImage:avatar2,"Phone": 9811637433.0
+  },
+  {
+      "Name": "ishan",
+      CustomerImage:avatar2,"Phone": 9619445567.0
+  },
+  {
+      "Name": "tanisha",
+      CustomerImage:avatar2,"Phone": 9845001414.0
+  },
+  {
+      "Name": "sandeep",
+      CustomerImage:avatar2,"Phone": 9819392217.0
+  },
+  {
+      "Name": "Roshani",
+      CustomerImage:avatar2,"Phone": 9769228987.0
+  },
+  {
+      "Name": "khush mehta",
+      CustomerImage:avatar2,"Phone": 9819831806.0
+  },
+  {
+      "Name": "Heer",
+      CustomerImage:avatar2,"Phone": 7506988110.0
+  },
+  {
+      "Name": "Mr. / almondhot cho",
+      CustomerImage:avatar2,"Phone": 9619955886.0
+  },
+  {
+      "Name": "pritesh",
+      CustomerImage:avatar2,"Phone": 8335888877.0
+  },
+  {
+      "Name": "navya",
+      CustomerImage:avatar2,"Phone": 9130096696.0
+  },
+  {
+      "Name": "kairav",
+      CustomerImage:avatar2,"Phone": 8369241442.0
+  },
+  {
+      "Name": "wilbert",
+      CustomerImage:avatar2,"Phone": 9679123312.0
+  },
+  {
+      "Name": "raj",
+      CustomerImage:avatar2,"Phone": 9920170598.0
+  },
+  {
+      "Name": "ROUNAK SHAH",
+      CustomerImage:avatar2,"Phone": 7057414127.0
+  },
+  {
+      "Name": "dhruv",
+      CustomerImage:avatar2,"Phone": 9742021980.0
+  },
+  {
+      "Name": "ananiya",
+      CustomerImage:avatar2,"Phone": 9108907003.0
+  },
+  {
+      "Name": "vishrut",
+      CustomerImage:avatar2,"Phone": 9909050423.0
+  },
+  {
+      "Name": "lavnesh",
+      CustomerImage:avatar2,"Phone": 9619252237.0
+  },
+  {
+      "Name": "nikita",
+      CustomerImage:avatar2,"Phone": 9619767646.0
+  },
+  {
+      "Name": "rahul",
+      CustomerImage:avatar2,"Phone": 9820538528.0
+  },
+  {
+      "Name": "sneh",
+      CustomerImage:avatar2,"Phone": 8200297696.0
+  },
+  {
+      "Name": "pratik",
+      CustomerImage:avatar2,"Phone": 9833555500.0
+  },
+  {
+      "Name": "natasha",
+      CustomerImage:avatar2,"Phone": 9820739785.0
+  },
+  {
+      "Name": "anezka",
+      CustomerImage:avatar2,"Phone": 9820409072.0
+  },
+  {
+      "Name": "sneha",
+      CustomerImage:avatar2,"Phone": 9920967745.0
+  },
+  {
+      "Name": "rohit",
+      CustomerImage:avatar2,"Phone": 9820638909.0
+  },
+  {
+      "Name": "dhruv",
+      CustomerImage:avatar2,"Phone": 8779186496.0
+  },
+  {
+      "Name": "isha",
+      CustomerImage:avatar2,"Phone": 9029601601.0
+  },
+  {
+      "Name": "vinit joshi",
+      CustomerImage:avatar2,"Phone": 9820476738.0
+  },
+  {
+      "Name": "rishu",
+      CustomerImage:avatar2,"Phone": 9137426454.0
+  },
+  {
+      "Name": "kashish",
+      CustomerImage:avatar2,"Phone": 9867041134.0
+  },
+  {
+      "Name": "irfan",
+      CustomerImage:avatar2,"Phone": 9766423996.0
+  },
+  {
+      "Name": "dhruhvvvvvv",
+      CustomerImage:avatar2,"Phone": 9928424494.0
+  },
+  {
+      "Name": "Rushabh Mataliya",
+      CustomerImage:avatar2,"Phone": 9833745588.0
+  },
+  {
+      "Name": "cristina",
+      CustomerImage:avatar2,"Phone": 9920248104.0
+  },
+  {
+      "Name": "Minal / eazy diner Hrish",
+      CustomerImage:avatar2,"Phone": 9819225115.0
+  },
+  {
+      "Name": "eshanya",
+      CustomerImage:avatar2,"Phone": 9968854402.0
+  },
+  {
+      "Name": "dara",
+      CustomerImage:avatar2,"Phone": 9820060818.0
+  },
+  {
+      "Name": "vansh",
+      CustomerImage:avatar2,"Phone": 9836670761.0
+  },
+  {
+      "Name": "sandra",
+      CustomerImage:avatar2,"Phone": 9582219568.0
+  },
+  {
+      "Name": "shriya",
+      CustomerImage:avatar2,"Phone": 9920961570.0
+  },
+  {
+      "Name": "arnald",
+      CustomerImage:avatar2,"Phone": 9667574081.0
+  },
+  {
+      "Name": "ankit",
+      CustomerImage:avatar2,"Phone": 7718872677.0
+  },
+  {
+      "Name": "shewta",
+      CustomerImage:avatar2,"Phone": 9892327577.0
+  },
+  {
+      "Name": "pupul",
+      CustomerImage:avatar2,"Phone": 8788299907.0
+  },
+  {
+      "Name": "ANUJ",
+      CustomerImage:avatar2,"Phone": 9821270335.0
+  },
+  {
+      "Name": "harshita",
+      CustomerImage:avatar2,"Phone": 9660828116.0
+  },
+  {
+      "Name": "Aksh",
+      CustomerImage:avatar2,"Phone": 9930924421.0
+  },
+  {
+      "Name": "shivansh",
+      CustomerImage:avatar2,"Phone": 7522802345.0
+  },
+  {
+      "Name": "urvi",
+      CustomerImage:avatar2,"Phone": 9820957826.0
+  },
+  {
+      "Name": "ayushi",
+      CustomerImage:avatar2,"Phone": 7837605001.0
+  },
+  {
+      "Name": "Siddhart",
+      CustomerImage:avatar2,"Phone": 9819886029.0
+  },
+  {
+      "Name": "minal",
+      CustomerImage:avatar2,"Phone": 8980967092.0
+  },
+  {
+      "Name": "manav",
+      CustomerImage:avatar2,"Phone": 9922915678.0
+  },
+  {
+      "Name": "tanaya",
+      CustomerImage:avatar2,"Phone": 8369439296.0
+  },
+  {
+      "Name": "udyani",
+      CustomerImage:avatar2,"Phone": 9820175524.0
+  },
+  {
+      "Name": "pooja",
+      CustomerImage:avatar2,"Phone": 9930040801.0
+  },
+  {
+      "Name": "dorothy",
+      CustomerImage:avatar2,"Phone": 8753945517.0
+  },
+  {
+      "Name": "appurva",
+      CustomerImage:avatar2,"Phone": 9914362376.0
+  },
+  {
+      "Name": "anshuu",
+      CustomerImage:avatar2,"Phone": 9819970409.0
+  },
+  {
+      "Name": "simran aswani",
+      CustomerImage:avatar2,"Phone": 9769589128.0
+  },
+  {
+      "Name": "PRIYAAAAMM",
+      CustomerImage:avatar2,"Phone": 8076732620.0
+  },
+  {
+      "Name": "rudrangshu",
+      CustomerImage:avatar2,"Phone": 7008658559.0
+  },
+  {
+      "Name": "muskan",
+      CustomerImage:avatar2,"Phone": 7499233106.0
+  },
+  {
+      "Name": "rohit",
+      CustomerImage:avatar2,"Phone": 8082189518.0
+  },
+  {
+      "Name": "shubha",
+      CustomerImage:avatar2,"Phone": 9082182757.0
+  },
+  {
+      "Name": "dhriti",
+      CustomerImage:avatar2,"Phone": 8283009841.0
+  },
+  {
+      "Name": "shivani",
+      CustomerImage:avatar2,"Phone": 8983631156.0
+  },
+  {
+      "Name": "monica",
+      CustomerImage:avatar2,"Phone": 9920590147.0
+  },
+  {
+      "Name": "gomes",
+      CustomerImage:avatar2,"Phone": 9769145524.0
+  },
+  {
+      "Name": "resham",
+      CustomerImage:avatar2,"Phone": 9920299491.0
+  },
+  {
+      "Name": "alden",
+      CustomerImage:avatar2,"Phone": 7506626750.0
+  },
+  {
+      "Name": "ananya",
+      CustomerImage:avatar2,"Phone": 8595634464.0
+  },
+  {
+      "Name": "bhavishya",
+      CustomerImage:avatar2,"Phone": 7600966975.0
+  },
+  {
+      "Name": "Koyel Chakraborty",
+      CustomerImage:avatar2,"Phone": 565099773.0
+  },
+  {
+      "Name": "mahesh",
+      CustomerImage:avatar2,"Phone": 7977260074.0
+  },
+  {
+      "Name": "guest",
+      CustomerImage:avatar2,"Phone": 9769202120.0
+  },
+  {
+      "Name": "Aksh dhanesha",
+      CustomerImage:avatar2,"Phone": 7016018020.0
+  },
+  {
+      "Name": "RIYAZ IT DEPT",
+      CustomerImage:avatar2,"Phone": 9833127620.0
+  },
+  {
+      "Name": "ana",
+      CustomerImage:avatar2,"Phone": 9819302321.0
+  },
+  {
+      "Name": "poulomi",
+      CustomerImage:avatar2,"Phone": 9920631991.0
+  },
+  {
+      "Name": "koyel",
+      CustomerImage:avatar2,"Phone": 9874610929.0
+  },
+  {
+      "Name": "diya",
+      CustomerImage:avatar2,"Phone": 9619823407.0
+  },
+  {
+      "Name": "aadit agerwala",
+      CustomerImage:avatar2,"Phone": 8588008033.0
+  },
+  {
+      "Name": "sharan",
+      CustomerImage:avatar2,"Phone": 9619958896.0
+  },
+  {
+      "Name": "snehq",
+      CustomerImage:avatar2,"Phone": 9833925083.0
+  },
+  {
+      "Name": "sunil",
+      CustomerImage:avatar2,"Phone": 9920399205.0
+  },
+  {
+      "Name": "Vininjay Sir / sujay / student",
+      CustomerImage:avatar2,"Phone": 9869066351.0
+  },
+  {
+      "Name": "aarav",
+      CustomerImage:avatar2,"Phone": 7045391163.0
+  },
+  {
+      "Name": "shyashi",
+      CustomerImage:avatar2,"Phone": 9152557962.0
+  },
+  {
+      "Name": "Raj sir",
+      CustomerImage:avatar2,"Phone": 9821346034.0
+  },
+  {
+      "Name": "gauri",
+      CustomerImage:avatar2,"Phone": 8174079999.0
   },
   {
       "Name": "aaryan",
-      "Phone": 9892363581,
-      CustomerImage:
-          avatar2,
+      CustomerImage:avatar2,"Phone": 9892363581.0
+  },
+  {
+      "Name": "Roberto",
+      CustomerImage:avatar2,"Phone": 7042877428.0
+  },
+  {
+      "Name": "shreyash",
+      CustomerImage:avatar2,"Phone": 9432136456.0
+  },
+  {
+      "Name": "Dhruv",
+      CustomerImage:avatar2,"Phone": 9979738071.0
+  },
+  {
+      "Name": "janbi",
+      CustomerImage:avatar2,"Phone": 9773455932.0
+  },
+  {
+      "Name": "Jay Vekariya",
+      CustomerImage:avatar2,"Phone": 9324164246.0
+  },
+  {
+      "Name": "kahaan",
+      CustomerImage:avatar2,"Phone": 9930202547.0
+  },
+  {
+      "Name": "shiddhart",
+      CustomerImage:avatar2,"Phone": 9920611097.0
+  },
+  {
+      "Name": "aditya popat",
+      CustomerImage:avatar2,"Phone": 8097949799.0
+  },
+  {
+      "Name": "devem",
+      CustomerImage:avatar2,"Phone": 7620113399.0
+  },
+  {
+      "Name": "hasrh",
+      CustomerImage:avatar2,"Phone": 7718855147.0
+  },
+  {
+      "Name": "parthiv",
+      CustomerImage:avatar2,"Phone": 9870101979.0
+  },
+  {
+      "Name": "shubah",
+      CustomerImage:avatar2,"Phone": 9730080167.0
+  },
+  {
+      "Name": "devika",
+      CustomerImage:avatar2,"Phone": 7700003159.0
+  },
+  {
+      "Name": "akshat",
+      CustomerImage:avatar2,"Phone": 9021626784.0
+  },
+  {
+      "Name": "Bijay Sir / Account/ banker",
+      CustomerImage:avatar2,"Phone": 7021157739.0
+  },
+  {
+      "Name": "vidhee",
+      CustomerImage:avatar2,"Phone": 9920037180.0
+  },
+  {
+      "Name": "shivani",
+      CustomerImage:avatar2,"Phone": 8412021368.0
+  },
+  {
+      "Name": "zahid",
+      CustomerImage:avatar2,"Phone": 9967019199.0
+  },
+  {
+      "Name": "viashal",
+      CustomerImage:avatar2,"Phone": 9820442427.0
+  },
+  {
+      "Name": "rishab",
+      CustomerImage:avatar2,"Phone": 9819869097.0
+  },
+  {
+      "Name": "Simran",
+      CustomerImage:avatar2,"Phone": 9819547798.0
+  },
+  {
+      "Name": "payal",
+      CustomerImage:avatar2,"Phone": 9619499437.0
+  },
+  {
+      "Name": "RASIK",
+      CustomerImage:avatar2,"Phone": 9820603677.0
+  },
+  {
+      "Name": "nikita",
+      CustomerImage:avatar2,"Phone": 7018379579.0
+  },
+  {
+      "Name": "aviral",
+      CustomerImage:avatar2,"Phone": 7610462345.0
+  },
+  {
+      "Name": "prdeep",
+      CustomerImage:avatar2,"Phone": 9819867521.0
+  },
+  {
+      "Name": "Menal Mam",
+      CustomerImage:avatar2,"Phone": 9619986376.0
+  },
+  {
+      "Name": "MALAV",
+      CustomerImage:avatar2,"Phone": 9819343887.0
+  },
+  {
+      "Name": "RITIKA",
+      CustomerImage:avatar2,"Phone": 7738976348.0
+  },
+  {
+      "Name": "AFTAB",
+      CustomerImage:avatar2,"Phone": 7400321789.0
+  },
+  {
+      "Name": "hasnin",
+      CustomerImage:avatar2,"Phone": 9920442334.0
+  },
+  {
+      "Name": "LAVINA",
+      CustomerImage:avatar2,"Phone": 9920773201.0
+  },
+  {
+      "Name": "HIMANSHU",
+      CustomerImage:avatar2,"Phone": 8169305342.0
+  },
+  {
+      "Name": "MAHADEV",
+      CustomerImage:avatar2,"Phone": 9892646780.0
+  },
+  {
+      "Name": "neha",
+      CustomerImage:avatar2,"Phone": 9619718945.0
+  },
+  {
+      "Name": "anchan",
+      CustomerImage:avatar2,"Phone": 9899893236.0
   },
   {
       "Name": "anamika",
-      "Phone": 9820734180,
-      CustomerImage:
-          avatar2,
+      CustomerImage:avatar2,"Phone": 9820734180.0
   },
   {
-      "Name": "Sabina ",
-      "Phone": 7021105769,
-      CustomerImage:
-          avatar2,
+      "Name": "manan",
+      CustomerImage:avatar2,"Phone": 9766785333.0
+  },
+  {
+      "Name": "Sachin Mehta",
+      CustomerImage:avatar2,"Phone": 9892255555.0
+  },
+  {
+      "Name": "abhai",
+      CustomerImage:avatar2,"Phone": 9819400556.0
+  },
+  {
+      "Name": "sanjay",
+      CustomerImage:avatar2,"Phone": 9832285670.0
+  },
+  {
+      "Name": "jesal mehta",
+      CustomerImage:avatar2,"Phone": 9820415857.0
+  },
+  {
+      "Name": "Babu Anna  Sir",
+      CustomerImage:avatar2,"Phone": 9869441122.0
+  },
+  {
+      "Name": "harshhhhhhhhh",
+      CustomerImage:avatar2,"Phone": 9372505653.0
+  },
+  {
+      "Name": "himanshi",
+      CustomerImage:avatar2,"Phone": 8320666398.0
+  },
+  {
+      "Name": "sanskriti",
+      CustomerImage:avatar2,"Phone": 9810245197.0
+  },
+  {
+      "Name": "kamram",
+      CustomerImage:avatar2,"Phone": 7208350226.0
+  },
+  {
+      "Name": "dhristi",
+      CustomerImage:avatar2,"Phone": 9372704482.0
+  },
+  {
+      "Name": "rishabh",
+      CustomerImage:avatar2,"Phone": 9819907574.0
+  },
+  {
+      "Name": "YASEEN HK",
+      CustomerImage:avatar2,"Phone": 6297609592.0
+  },
+  {
+      "Name": "adhya",
+      CustomerImage:avatar2,"Phone": 8100120044.0
+  },
+  {
+      "Name": "sitakshi",
+      CustomerImage:avatar2,"Phone": 9953522050.0
+  },
+  {
+      "Name": "vinayak",
+      CustomerImage:avatar2,"Phone": 9468603137.0
+  },
+  {
+      "Name": "Adhiraj",
+      CustomerImage:avatar2,"Phone": 7290839824.0
+  },
+  {
+      "Name": "ashish",
+      CustomerImage:avatar2,"Phone": 9810500729.0
+  },
+  {
+      "Name": "kunal",
+      CustomerImage:avatar2,"Phone": 9820422791.0
+  },
+  {
+      "Name": "jharna",
+      CustomerImage:avatar2,"Phone": 9819336470.0
   },
   {
       "Name": "Misha",
-      "Phone": 9998044834,
-      CustomerImage:
-          avatar2,
+      CustomerImage:avatar2,"Phone": 9998044834.0
   },
+  {
+      "Name": "kiran",
+      CustomerImage:avatar2,"Phone": 9821120253.0
+  },
+  {
+      "Name": "IMAAD",
+      CustomerImage:avatar2,"Phone": 8097579072.0
+  },
+  {
+      "Name": "tanish",
+      CustomerImage:avatar2,"Phone": 9006392074.0
+  },
+  {
+      "Name": "Vininjay Sir/ guest",
+      CustomerImage:avatar2,"Phone": 9869066351.0
+  },
+  {
+      "Name": "nidhi",
+      CustomerImage:avatar2,"Phone": 9978626024.0
+  },
+  {
+      "Name": "ishika",
+      CustomerImage:avatar2,"Phone": 9654502929.0
+  },
+  {
+      "Name": "akshat",
+      CustomerImage:avatar2,"Phone": 7986207036.0
+  }
 ]
 
 export const employeesData = [
@@ -9865,11 +11607,11 @@ export const ecomPieChartData2 = [
 
 export const stackedChartData = [
   [
-    { x: 'Jaggery Powder Sachet', y: 1500},
-    { x: 'Bisleri', y: 1440},
-    { x: 'Paper Bag', y: 1100},
-    { x: 'Coffee Cup', y: 1020},
-    { x: 'Bathing Bar', y:  1000},
+    { x: 'Hot Coffee', y: 91264},
+    { x: 'Baked Vada Pav', y: 75808},
+    { x: 'Cold Coffee', y: 53728},
+    { x: 'Sweet', y: 34408},
+    { x: 'Hot Chocolate', y:  29624},
  
   ],
   // [
@@ -9918,9 +11660,9 @@ export const stackedPrimaryXAxis = {
 
 export const stackedPrimaryYAxis = {
   lineStyle: { width: 0 },
-  minimum: 100,
-  maximum: 1600,
-  interval: 100,
+  minimum: 10000,
+  maximum: 100000,
+  interval: 10000,
   majorTickLines: { width: 0 },
   majorGridLines: { width: 1 },
   minorGridLines: { width: 1 },
